@@ -2,10 +2,10 @@
 
 
 int main() {
-   float a;
-   scanf("%f",&a);
-   double b= a;
-   printf("You entered: %d",b);
+   double number;
+   scanf("%lf",&number);
+   
+   printf("You entered: %.4lf",number);
    
     return 0;
 }
